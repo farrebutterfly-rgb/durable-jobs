@@ -1,0 +1,15 @@
+INVOICE
+
+Supplier: Nordljus Kontorsvaror AB
+Supplier email: billing@nordljus-kontor.example
+Invoice number: INV-1001
+Issue date: 2026-10-02
+Due date: 2026-11-01
+Currency: SEK
+
+Lines:
+  Desk lamp, matte black           4 x 349.00
+  Monitor arm, dual                2 x 1290.00
+  Cable trays, 1 m                10 x 89.50
+
+Total due: 4871.00

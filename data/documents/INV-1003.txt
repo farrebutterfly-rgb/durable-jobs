@@ -1,0 +1,14 @@
+INVOICE
+
+Supplier: Vasslan Mekaniska HB
+Supplier email: faktura@vasslan-mek.example
+Invoice number: INV-1003
+Issue date: 2026-10-09
+Due date: 2026-10-30
+Currency: SEK
+
+Lines:
+  CNC milling, aluminium bracket  25 x 412.00
+  Anodising, batch                 1 x 1850.00
+
+Total due: 12150.00

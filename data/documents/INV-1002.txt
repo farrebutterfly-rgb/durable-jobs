@@ -1,0 +1,15 @@
+Faktura / Invoice
+
+Supplier: Hamnkranen Logistik AB
+Supplier email: ar@hamnkranen.example
+Invoice number: INV-1002
+Issue date: 2026-10-05
+Due date: 2026-11-04
+Currency: EUR
+
+Lines:
+  Pallet storage, October         38 x 4.75
+  Inbound handling                 6 x 42.00
+  Express outbound                 1 x 115.00
+
+Total due: 547.50
