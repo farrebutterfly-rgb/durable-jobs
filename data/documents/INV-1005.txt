@@ -1,0 +1,13 @@
+INVOICE
+
+Supplier: Ljungby Kaffeservice AB
+Supplier email: order@ljungby-kaffe.example
+Invoice number: INV-1005
+Issue date: 2026-10-14
+Currency: SEK
+
+Lines:
+  Coffee beans, 1 kg              12 x 219.00
+  Machine service                  1 x 950.00
+
+Total due: 3578.00

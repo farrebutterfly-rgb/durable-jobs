@@ -1,0 +1,26 @@
+{
+  "name": "durable-jobs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Checkpointed background jobs on node:sqlite: leases, restart recovery, bounded retries and an idempotent local report write.",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "demo": "node --no-warnings=ExperimentalWarning --import tsx src/cli/demo.ts",
+    "live": "node --no-warnings=ExperimentalWarning --import tsx src/cli/live.ts",
+    "serve": "node --no-warnings=ExperimentalWarning --import tsx src/cli/serve.ts",
+    "worker": "node --no-warnings=ExperimentalWarning --import tsx src/cli/worker.ts",
+    "test": "node --no-warnings=ExperimentalWarning --import tsx --test --test-concurrency=1 test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.3.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}

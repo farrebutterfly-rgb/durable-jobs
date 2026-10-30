@@ -1,0 +1,14 @@
+INVOICE
+
+Supplier: Kvarnbacken Tryck AB
+Supplier email: kund@kvarnbacken-tryck.example
+Invoice number: INV-1004
+Issue date: 2026-10-12
+Due date: 2026-11-11
+Currency: SEK
+
+Lines:
+  Brochures A5, 500 pcs            2 x 1475.00
+  Design proof round               1 x 600.00
+
+Total due: 3950.00
